@@ -4,31 +4,31 @@ import './index.css';
 import {books} from './books';
 import Book from './Book';
 
-const EventExamples = () => {
-  const handleButtonClick = () => {
-    alert('Handle Button Click');
-  };
+// const EventExamples = () => {
+//   const handleButtonClick = () => {
+//     alert('Handle Button Click');
+//   };
 
-  const handleFormInput = (e) => {
-    console.log(`Handle Form Input: ${e.target.name}`)
-  };
+//   const handleFormInput = (e) => {
+//     console.log(`Handle Form Input: ${e.target.name}`)
+//   };
 
-  const handleFormSubmission = (e) => {
-    e.preventDefault();
-    console.log(`Form Submitted`);
-  };
+//   const handleFormSubmission = (e) => {
+//     e.preventDefault();
+//     console.log(`Form Submitted`);
+//   };
 
-  return (
-    <section>
-      <button onClick={handleButtonClick}>Click me!</button>
-      <form onSubmit={handleFormSubmission}>
-        <h2>Typical Form</h2>
-        <input type='text' name='example' onChange={handleFormInput} style={{ margin: '1rem 0'}} />
-        <button type='submit'>Submit</button>
-      </form>
-    </section>
-  );
-};
+//   return (
+//     <section>
+//       <button onClick={handleButtonClick}>Click me!</button>
+//       <form onSubmit={handleFormSubmission}>
+//         <h2>Typical Form</h2>
+//         <input type='text' name='example' onChange={handleFormInput} style={{ margin: '1rem 0'}} />
+//         <button type='submit'>Submit</button>
+//       </form>
+//     </section>
+//   );
+// };
 
 function BookList() {
   const getBook = (id) => {
