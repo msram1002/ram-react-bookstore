@@ -42,7 +42,7 @@ function BookList() {
         <h1>Best Selling Books</h1>
         <p>Our most popular products based on sales.</p>
       </section>
-      <EventExamples />
+      {/* <EventExamples /> */}
       {/* Rendering Lists - Use Map */}
       <section className="booklist">
         {books.map((book) => {
